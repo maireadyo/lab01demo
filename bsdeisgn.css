@@ -1,0 +1,59 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    width: 800px;
+    align-items: center;
+}
+.navigationbar{
+    display: block;
+    width: 800px;
+    background-color: lightgray;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    align-items: center;
+    
+    
+    
+
+    
+}
+.maintext{
+    align-items: center;
+    width: auto;
+}
+
+img {
+    width: 800px; /* Make images responsive, take the full width of their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space under the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+.mylink{
+    
+	background-color:lightgray;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	
+}
+
+.mylink:hover{
+    color: white;
+    background-color: darkgrey;
+}
+
+.mycontent{
+    width: 800px; 
+    margin: 0 auto; /* Center the content container horizontally */
+    padding: 20px; }
